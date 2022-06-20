@@ -39,7 +39,7 @@ public class DesafioBar {
 		
 		System.out.printf("INGRESSO   : R$ %.2f %n", tkt);
 		System.out.println();
-		System.out.printf("Valor a Pagar    : %.2f %n" ,(consumo+cover+tkt));
+		System.out.printf("Valor a Pagar    : %.2f %n" , ct.Total(consumo,cover,tkt));
 			
 		
 		sc.close();
