@@ -22,7 +22,7 @@ public class Bill {
 
 	public double Cover(double conta) {
 		if (conta < 40.00) {
-			return 10.00;
+			return 4.00;
 		} else {
 			return 0.00;
 		}
